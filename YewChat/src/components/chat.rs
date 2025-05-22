@@ -163,7 +163,6 @@ impl Component for Chat {
                 {
                     self.messages.iter().map(|p| {
                         let contact = self.users.iter().find(|c| c.name == p.from).unwrap_or_else(|| {
-                            // Create a static UserProfile to avoid temporary value issues
                             Box::leak(Box::new(UserProfile {
                                 name: p.from.clone(),
                                 avatar: format!("https://avatars.dicebear.com/api/adventurer-neutral/{}.svg", p.from),
