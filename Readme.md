@@ -6,4 +6,7 @@
 
 
 ### 3.1 Original code.
-![alt text](image.png)
+![alt text](image/image.png)
+
+### 3.2 Be creative!
+![alt text](image/image-1.png)
